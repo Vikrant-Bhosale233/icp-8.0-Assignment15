@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a0e1d4;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(51, 131, 223);
+    font-style: italic;
+    font-size: 55px;
+    border-bottom: 10px;
+}
+.box {
+    display: flow-root;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.bmwcard {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.bmw-img {
+    width: 300px;
+    height: 200px;
+    border-radius: 8px 8px 0 0;
+}
+
+.bmwcontent {
+    padding: 15px;
+}
+
+.bmwtitle {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.bmw-info {
+    font-size: 15px;
+    color: #555;
+    line-height: 1.4;
+    flex-wrap: wrap;
+}
